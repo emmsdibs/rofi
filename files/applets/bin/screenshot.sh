@@ -74,7 +74,7 @@ countdown () {
 
 # take shots
 shotnow () {
-	hyprshot -m output --freeze
+	sleep 0.5 && hyprshot -m output --freeze
 }
 
 shot5 () {
@@ -88,11 +88,11 @@ shot10 () {
 }
 
 shotwin () {
-	hyprshot -m window --freeze
+	sleep 0.5 && hyprshot -m window --freeze
 }
 
 shotarea () {
-	hyprshot -m region --freeze
+	sleep 0.5 && hyprshot -m region --freeze
 }
 
 # Execute Command
